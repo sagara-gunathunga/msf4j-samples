@@ -16,7 +16,7 @@ mvn clean install
 Use following command to run the application
 
 ```
-java -jar target/basicauth-security-*.jar
+java -Djava.security.auth.login.config=sample_jaas.config -jar target/basicauth-security-*.jar
 ```
 
 ## How to tests the sample
